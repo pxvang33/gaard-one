@@ -1,0 +1,48 @@
+.legend{
+    /* height: 40vw; */
+    /* width: 40vw; */
+    max-width: 60vw;
+    border-style: ridge;
+    border-color: #90897f;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 30px;
+}
+
+.belwinBorder{
+    height: 12px;
+    width: 25px;
+    border-color: #90897f;
+    border-style: solid;
+    /* float: left; */
+    display: inline-block;
+}
+
+.purchase{
+    height: 12px;
+    width: 25px;
+    background-color: #647c36;
+    border-style: solid;
+    border-width: 1px;
+    display: inline-block;
+}
+
+.savedByYear{
+    width: 25px;
+    height: 12px;
+    border-style: solid;
+    border-width: 1px;
+    display: inline-block;
+    background: repeating-linear-gradient(
+        45deg,
+        transparent,
+        transparent 4px,
+        transparent 1px,
+        #90897f 7px
+      ),
+      linear-gradient(
+        to bottom,
+        transparent,
+        transparent
+      )
+}

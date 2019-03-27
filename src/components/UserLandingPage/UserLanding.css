@@ -1,0 +1,34 @@
+.userHeader {
+    text-align: center;
+}
+.userSubHeader {
+    text-align: center;
+}
+.ui-home-main {
+    margin-left: 60px;
+    margin-right: 00px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+.mobile-mid-head {
+
+}
+.ui-home-addons { 
+    margin: 40px;
+}
+
+/* social media */
+.share-icons {
+    padding: 5px;
+    margin-top: 10px;
+}
+.share-div {
+    text-align: Center;
+    margin: 15px;
+}
+.sharethis-inline-share-buttons {
+    margin-bottom: 20px;
+}
+.welcome-main{
+    text-align: center;
+}

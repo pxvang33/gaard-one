@@ -1,0 +1,34 @@
+.bg-modal {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    margin-block-start: 10%;
+    width: 500px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.modal-button {
+    margin: 6px 0;
+    padding: 0 26px;
+    width: 40%;
+    display: inline-block !important;
+    flex-direction: row;
+}
+.formSubmitBtn{
+    background-color: #647c36;
+}

@@ -1,0 +1,17 @@
+.ui-card {
+    margin: 20px;
+    height: 400px;
+    opacity: 0.85 ;
+}
+.ui-main-div {
+    /* margin-top: auto;
+    background-image: url("/images/flock-of-seagull-birds-flying-in-the-air-at-scenic-sunset-at-a-beach_4ywyu442__F0009.png");
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+.ScanBtn{
+    background-color:  #647c36 !important;
+}
+.ScanCloseBtn{
+    background-color:  #647c36 !important;
+}

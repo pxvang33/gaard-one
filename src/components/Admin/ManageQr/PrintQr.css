@@ -1,0 +1,102 @@
+/* styling for the print function  */
+@media print {
+   
+    .printHidden {
+        display: contents !important;
+    }
+    .Button{
+        display: none !important;
+    }
+    .qrTable {
+        display: none !important;
+    }
+    .exportPdfBtn {
+        display: none !important;
+    }
+    .printBtn{
+        display:none !important;
+    }
+    .form-container, .form-control {
+        display: none !important;
+    }
+    .AdminTabNav{
+        display: none !important;
+    }
+    .allocatedUnitSq {
+        display: none !important;
+    }
+    .adminPage {
+        display: none !important;
+    }
+    .log-in {
+        display: none !important;
+    }
+    .footer {
+        display:none !important;
+    }
+    .pdfExport {
+        display: none !important;
+    }
+    .header-main{
+        display:none !important;
+    }
+
+    @page{
+        size: 8.5in 11in portrait;
+        margin: 1.3cm;
+        width: 100%;
+    }
+  
+     .qrPrint {
+         size: 1in 1in !important;
+        /* width: 1in !important;
+        height: 1in !important; */
+        display: inline-block;
+        padding-left: 0.142in !important;
+        padding-right: 0.142in !important;
+        padding-top: 0.117in !important;
+        padding-bottom: 0.117in !important;
+        margin: 0in !important;
+        font-size:5pt;
+     }
+
+}
+
+/* .qrPrint{
+    size: 8.5in 11in portrait;
+     display: inline-block; 
+     padding-left: 0.24in !important;
+    padding-right: 0.24in !important;
+    padding-top: 0.221in !important;
+    padding-bottom: 0.221in !important;
+    margin: 0in !important;
+    font-size:5pt; 
+} */
+ 
+.labelName{
+    padding: 0in !important;
+    margin: 0in !important;
+} 
+
+.labelQr{
+    padding: 0in !important;
+    margin: 0in !important;
+}
+
+.exportPdfBtn{
+    background-color:  #647c36 !important;
+    margin: 5px !important;  
+}
+.allocatedUnitSq{
+    text-align: center;
+}
+.printBtn {
+    background-color:  #647c36 !important;
+}
+.FormSubmitBtn {
+    background-color:  #647c36 !important;
+}
+.PrintSelect{
+    font-size: 1.4em;
+
+}
